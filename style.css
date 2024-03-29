@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.centered-grid {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 1rem;
+}
+.processed-image-wrapper {
+  margin: 1rem 0;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  min-height: 100px;
+}
